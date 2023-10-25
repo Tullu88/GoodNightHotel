@@ -1,0 +1,593 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1676287679088955, "dur": 625905, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676287679089163, "dur": 5097, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676287679094262, "dur": 32358, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676287679126680, "dur": 185174, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676287679311856, "dur": 392352, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676287679704210, "dur": 10650, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676287679715226, "dur": 10, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1676287679207922, "dur": 92614, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676287679208841, "dur": 35700, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676287679286071, "dur": 3887, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676287679289960, "dur": 10569, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676287679290595, "dur": 8838, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676287679304467, "dur": 1085, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676287679303802, "dur": 1771, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676287679715305, "dur": 145, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1676287679347116, "dur":1159, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676287679348280, "dur":88, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1676287679348395, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1676287679348413, "dur":210, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1676287679348645, "dur":471, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676287679349116, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676287679686553, "dur":98, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676287679686651, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676287679686676, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676287679686678, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676287679686684, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676287679686685, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676287679686688, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676287679686689, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676287679686692, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676287679686693, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676287679686698, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676287679686699, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676287679686702, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676287679686703, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676287679686707, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676287679686708, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676287679686712, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676287679686721, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676287679686744, "dur":1629, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1676287679349262, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676287679349262, "dur":4894, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676287679354157, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1676287679354222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676287679355332, "dur":435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1676287679355807, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1676287679355840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676287679356044, "dur":479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1676287679356559, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1676287679356599, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676287679356602, "dur":424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1676287679357063, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679357105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676287679358421, "dur":69977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679428444, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679428503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676287679428518, "dur":319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679428867, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679428897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676287679428900, "dur":24681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679453617, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679453654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676287679453658, "dur":318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679454008, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679454043, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676287679454047, "dur":20071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679474153, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679474185, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676287679474189, "dur":18303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679492533, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679492567, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676287679492571, "dur":420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679493025, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679493233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676287679493236, "dur":424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679493691, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679493721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676287679493725, "dur":16851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679510618, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679510651, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676287679510655, "dur":502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679511192, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679511226, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676287679511230, "dur":18448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679529721, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679530125, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676287679530130, "dur":2540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679532704, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679532740, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676287679532743, "dur":787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679533706, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679533744, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676287679533748, "dur":33017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679566815, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679566854, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676287679566858, "dur":28868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679595789, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679595826, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676287679595831, "dur":453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679596319, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679596349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676287679596353, "dur":85581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676287679681973, "dur":4579, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676287679349022, "dur":134, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676287679349156, "dur":5002, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676287679354159, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1676287679354249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676287679355850, "dur":338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1676287679356225, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1676287679356269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676287679356409, "dur":295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1676287679356739, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1676287679356772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676287679356776, "dur":69044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1676287679425890, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676287679425935, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676287679425938, "dur":106027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676287679532011, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676287679532050, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676287679532054, "dur":453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676287679532544, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676287679532579, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676287679532583, "dur":29243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676287679561865, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676287679561896, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676287679561900, "dur":55002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676287679616937, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676287679616967, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676287679616971, "dur":380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676287679617382, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676287679617418, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676287679617421, "dur":1666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676287679619127, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676287679619158, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676287679619161, "dur":404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676287679619595, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676287679619624, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676287679619627, "dur":582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676287679620240, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676287679620269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676287679620273, "dur":492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676287679620804, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676287679620837, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676287679620840, "dur":502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676287679621378, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676287679621414, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676287679621417, "dur":1155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676287679622602, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676287679622637, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676287679622639, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676287679623883, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676287679623913, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676287679623919, "dur":614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676287679624569, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676287679624603, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676287679624607, "dur":5133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676287679629779, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1676287679629811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676287679629814, "dur":9034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1676287679638885, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1676287679638914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676287679638918, "dur":47581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1676287679686538, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1676287679686539, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676287679349779, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676287679349780, "dur":4340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676287679354120, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1676287679354195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676287679355033, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1676287679356180, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1676287679356425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676287679356430, "dur":794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1676287679357265, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679357330, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676287679358357, "dur":135608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679494002, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679494037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676287679494041, "dur":353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679494427, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679494458, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676287679494461, "dur":341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679494834, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679494869, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676287679494872, "dur":43224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679538130, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679538160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676287679538164, "dur":28341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679566811, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679566849, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676287679566853, "dur":408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679567296, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679567335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676287679567339, "dur":1495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679568875, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679568912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676287679568917, "dur":28133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679597089, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679597124, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676287679597128, "dur":362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679597521, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679597552, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676287679597555, "dur":20845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679618450, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679619087, "dur":49, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676287679619170, "dur":3256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679622464, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679622496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676287679622499, "dur":4511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679627042, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679627072, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676287679627075, "dur":476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679627586, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679627816, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676287679627819, "dur":454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679628303, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679628404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676287679628408, "dur":311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679628748, "dur":16455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679645208, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676287679645430, "dur":377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676287679645840, "dur":700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1676287679646543, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676287679646546, "dur":368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1676287679646945, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1676287679646972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676287679646975, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1676287679648165, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1676287679648195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676287679648198, "dur":1862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1676287679650093, "dur":36455, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676287679349228, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676287679349228, "dur":4927, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676287679354156, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1676287679354316, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676287679426654, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1676287679427995, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1676287679428029, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676287679428107, "dur":59209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1676287679487356, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679487405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676287679487410, "dur":18513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679505963, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679506007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676287679506013, "dur":19749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679525804, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679525839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676287679525856, "dur":37815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679564006, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679564167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676287679564172, "dur":35348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679599703, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679600104, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676287679600108, "dur":640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679600919, "dur":1355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679602286, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676287679602292, "dur":3383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679605709, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679605786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676287679605790, "dur":576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679606399, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679606484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676287679606488, "dur":326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679606844, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679606925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676287679606929, "dur":305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679607265, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679607345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676287679607360, "dur":280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679607669, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679607753, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676287679607756, "dur":425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679608217, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679608581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676287679608585, "dur":562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679609182, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679609441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676287679609445, "dur":447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679609925, "dur":421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679610348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676287679610352, "dur":561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679610945, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679610976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676287679610980, "dur":41239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676287679652263, "dur":34286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676287679349120, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676287679349120, "dur":4972, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676287679354098, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1676287679354100, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676287679354143, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1676287679354146, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676287679354552, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1676287679355767, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1676287679355817, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676287679356039, "dur":388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1676287679356467, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1676287679356510, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676287679356522, "dur":386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1676287679356945, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1676287679356984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676287679356988, "dur":68961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1676287679425992, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1.exe" }}
+,{ "pid":12345, "tid":5, "ts":1676287679426027, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676287679426029, "dur":23510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1.exe" }}
+,{ "pid":12345, "tid":5, "ts":1676287679449579, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676287679449617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676287679449622, "dur":24631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676287679474289, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676287679474323, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676287679474326, "dur":37013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676287679511374, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676287679511407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676287679511411, "dur":871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676287679512321, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676287679512353, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676287679512357, "dur":16734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676287679529141, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676287679529181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676287679529186, "dur":467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676287679532348, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676287679532402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676287679532406, "dur":45507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676287679577952, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676287679577982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676287679577987, "dur":34262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676287679612734, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676287679613179, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676287679613208, "dur":52287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676287679665536, "dur":21025, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679349355, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679349355, "dur":4798, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679354154, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1676287679354225, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679355596, "dur":387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1676287679356021, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1676287679356059, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679356071, "dur":385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1676287679356494, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1676287679356527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679356531, "dur":374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1676287679356940, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1676287679356982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679356986, "dur":68882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1676287679425909, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1676287679425945, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679425947, "dur":15046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1676287679441037, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679441074, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679441078, "dur":26996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679468126, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679468164, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679468169, "dur":17636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679485848, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679485881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679485886, "dur":52353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679538273, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679538302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679538318, "dur":364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679538715, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679538747, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679538751, "dur":40375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679579163, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679579194, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679579198, "dur":326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679579555, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679579591, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679579594, "dur":40522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679620151, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679620181, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679620184, "dur":682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679620899, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679620929, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679620932, "dur":512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679621477, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679621506, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679621509, "dur":440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679621980, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679622009, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679622012, "dur":354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679622415, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679622454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679622458, "dur":511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679623002, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679623033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679623037, "dur":289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679623357, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679623387, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679623390, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679624562, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679624604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679624608, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679626150, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679626184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679626188, "dur":451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679626683, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679626714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679626718, "dur":2503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676287679629255, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1676287679629344, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679629421, "dur":305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1676287679629756, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1676287679629788, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679629799, "dur":587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1676287679630419, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1676287679630448, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679630451, "dur":15617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1676287679646104, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1676287679646135, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679646138, "dur":479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1676287679646650, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1676287679646680, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679646682, "dur":1079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1676287679647795, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1676287679647824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679647828, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1676287679648852, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1676287679648883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676287679648887, "dur":899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1676287679649819, "dur":36732, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676287679349569, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676287679349570, "dur":4587, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676287679354158, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1676287679354250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676287679425866, "dur":2097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1676287679428005, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676287679428050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676287679428200, "dur":353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676287679428584, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676287679428621, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676287679428624, "dur":24324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676287679452987, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676287679453019, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676287679453024, "dur":20613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676287679473676, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676287679473721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676287679473726, "dur":18629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676287679492405, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676287679492445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676287679492487, "dur":447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676287679492968, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676287679493009, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676287679493012, "dur":908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676287679493953, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676287679493986, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676287679493989, "dur":327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676287679494347, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676287679494380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676287679494384, "dur":361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676287679494777, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676287679494807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676287679494811, "dur":17785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676287679512630, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676287679512667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676287679512671, "dur":18027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676287679530735, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676287679530769, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676287679530773, "dur":34251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676287679565085, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676287679565137, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676287679565141, "dur":27139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676287679592322, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676287679592353, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676287679592370, "dur":23799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676287679616222, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676287679616256, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676287679616260, "dur":59304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676287679675608, "dur":10947, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679349460, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679349460, "dur":4699, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679354160, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1676287679354286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679427407, "dur":660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1676287679428106, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679428142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679428181, "dur":15288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679443506, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679443536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679443541, "dur":17066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679460650, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679460685, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679460689, "dur":20370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679481100, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679481136, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679481140, "dur":20170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679501351, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679501398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679501403, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679503392, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679503607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679503633, "dur":32910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679536585, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679536617, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679536622, "dur":413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679537070, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679537101, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679537104, "dur":409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679537587, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679537629, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679537633, "dur":38158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679575831, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679575863, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679575867, "dur":26467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679602373, "dur":349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679602724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679602728, "dur":522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679603282, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679603314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679603318, "dur":312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679603660, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679603789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679603792, "dur":307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679604128, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679604379, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679604383, "dur":675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679605094, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679605181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679605185, "dur":295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679605514, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679605609, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679605622, "dur":338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679605993, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679606083, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679606086, "dur":341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679606459, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679606562, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679606565, "dur":347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679606943, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679607024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679607028, "dur":274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679607332, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679607408, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679607411, "dur":266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679607707, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679607781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679607784, "dur":272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679608087, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679608164, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679608167, "dur":400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679608598, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679608714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679608718, "dur":288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679609082, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679609163, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679609167, "dur":280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679609477, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679609561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679609564, "dur":283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679609887, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679610037, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679610041, "dur":342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679610414, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679610445, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679610448, "dur":376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679610856, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679611088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679611091, "dur":384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679611505, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679611538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679611542, "dur":25230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676287679636817, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1676287679636848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679636852, "dur":1155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1676287679638047, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1676287679638077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679638081, "dur":5478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1676287679643603, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1676287679643635, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679643639, "dur":2060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1676287679645736, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1676287679645826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679645830, "dur":290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1676287679646149, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1676287679646193, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679646195, "dur":508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1676287679646736, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1676287679646765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679646768, "dur":2411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1676287679649215, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1676287679649250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679649269, "dur":463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1676287679649764, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1676287679649852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676287679649856, "dur":284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity Projects/Good Night Hotel - v1/SGJ2-1_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1676287679650168, "dur":36382, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676287679689599, "dur":1554, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1676287679715498, "dur": 517, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676287679715217, "dur": 813, "ph": "X", "name": "Write chrome-trace events", "args": {} },

@@ -43,3 +43,7 @@ Library/PackageCache/com.unity.burst@1.7.3/.Runtime/libburst-llvm-12.so
 Assets/Audio/WIND AMBIENT 2.wav
 Library/PackageCache/com.unity.burst@1.7.3/.Runtime/hostlin/lld
 Library/PackageCache/com.unity.burst@1.7.3/.Runtime/hostmac/dsymutil
+Library/PackageCache/com.unity.burst@1.7.3/.Runtime/hostmac/lld
+Library/ArtifactDB
+Library/PackageCache/com.unity.burst@1.7.3/.Runtime/libburst-llvm-12.dylib
+Library/PlayerDataCache/Win64/Data/sharedassets0.assets.resS

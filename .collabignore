@@ -25,15 +25,18 @@ ehthumbs.db
 *.unityproj
 *.booproj
 
+
 # Unity generated
 # ===============
 [Oo]bj/
 [Bb]uild
 sysinfo.txt
 *.stackdump
+*.dll
 
 # Additional Patterns
 # ==================
+*.wav
 Assets/Audio/WIND AMBIENT 1.wav
 Library/PackageCache/com.unity.burst@1.7.3/.Runtime/libburst-llvm-10.dylib
 Library/PackageCache/com.unity.burst@1.7.3/.Runtime/libburst-llvm-12.so

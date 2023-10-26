@@ -8,3 +8,7 @@ Library/PackageCache/com.unity.burst@1.7.3/.Runtime/libburst-llvm-12.so filter=l
 1.wav filter=lfs diff=lfs merge=lfs -text
 Assets/Audio/WIND[[:space:]]AMBIENT[[:space:]]1.wav filter=lfs diff=lfs merge=lfs -text
 Library/PackageCache/com.unity.burst@1.7.3/.Runtime/hostlin/lld filter=lfs diff=lfs merge=lfs -text
+Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
+Library/PackageCache/com.unity.burst@1.7.3/.Runtime/libburst-llvm-12.dylib filter=lfs diff=lfs merge=lfs -text
+Library/PlayerDataCache/Win64/Data/sharedassets0.assets.resS filter=lfs diff=lfs merge=lfs -text
+Library/PackageCache/com.unity.burst@1.7.3/.Runtime/hostmac/lld filter=lfs diff=lfs merge=lfs -text
